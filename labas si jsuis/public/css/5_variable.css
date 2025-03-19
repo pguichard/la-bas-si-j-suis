@@ -1,0 +1,42 @@
+
+
+
+:root {
+    --color-rouge: #f00000;
+    --color-text: #515151;
+    --color-bg-main:#FAFAFA;
+    --color-bg-footer:#f0f0f4;
+    --color-jaune: #f2d201;
+    --color-violet: #8A2DBA;
+    --color-black: #000000FF;
+    --color-grey: #808080FF;
+}
+.color-red {
+    color: var(--color-rouge);
+}
+
+.color-grey {
+    color: var(--color-grey);
+}
+
+/*typo*/
+:root {
+    --font-text:'Text';
+    --font-lien:'Lien';
+}
+
+/*taille*/
+:root{
+    --taille-wrapper:1140px;
+    --taille-moyenne-marge: 42px;
+}
+
+
+
+
+
+
+
+
+
+

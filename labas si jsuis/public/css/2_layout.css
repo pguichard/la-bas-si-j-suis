@@ -1,0 +1,98 @@
+
+blockquote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+}
+
+.lab{
+    display: flex;
+    margin: auto;
+    width: 8em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+/* carte */
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.carte {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #A19F9FFF;
+    border-radius: 5px;
+    background: white;
+    width: 25%;
+}
+
+.carte-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte-abonnes {
+    padding: 1px;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.carte-img {
+    width: 100%;
+}
+
+.carte-img-titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.carte-btn {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1140px) {
+    .carte {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .carte {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .carte {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        nav {
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+        }
+    }
+}
+
+

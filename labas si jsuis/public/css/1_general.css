@@ -1,0 +1,26 @@
+/*=======================================================================
+Styles appliquées aux balises
+=========================================================================*/
+
+@import url(../fonts/font.css);
+
+
+
+:root{
+    font-size: 1rem;
+}
+
+body{
+    background-color: var(--color-bg-main);
+    font-family: texte, Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+
+a {
+    font-family: 'Lien', Arial, helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.item.active{
+    background-color: var(--color-jaune);
+}
+

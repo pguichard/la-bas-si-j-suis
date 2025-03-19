@@ -1,0 +1,9 @@
+.fond-violet a {
+    background-color: var(--color-violet);
+    color: #fff;
+}
+
+.fond-rouge a {
+    background-color: var(--color-rouge);
+    color: #fff;
+}
